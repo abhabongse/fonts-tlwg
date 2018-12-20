@@ -17,7 +17,7 @@ CONFIG_FILES = \
 
 EXTRA_DIST = $(CONFIG_FILES)
 
-fontconfigdir = $(datadir)/fontconfig/conf.avail
+fontconfigdir = $(sysconfdir)/fonts/conf.avail
 
 fontconfig_DATA = $(CONFIG_FILES)
 
